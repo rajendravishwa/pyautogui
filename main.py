@@ -1,3 +1,8 @@
+import pyautogui
+import subprocess
+import test_gui
+
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -15,3 +20,5 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 print("first test1")
+
+test_gui.app_launch();

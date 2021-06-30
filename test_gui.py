@@ -1,4 +1,6 @@
 import pyautogui
 import subprocess
 
-subprocess.call(['C:\\Temp\\a b c\\Notepad.exe', 'C:\\test.txt'])
+
+def app_launch():
+    subprocess.Popen('C:\\Windows\\System32\\calc.exe')
